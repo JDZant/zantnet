@@ -128,6 +128,10 @@ body {
         padding-right: 30px;
         font-size: 12px;
     }
+    .nav-wrapper {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (min-width:700px) and (max-width:1000px) {
@@ -214,6 +218,12 @@ textarea {
 
 .form-wrapper {
     text-align: center;
+}
+
+@media screen and (min-width:1px) and (max-width:900px) {
+    .contact-content-wrapper{
+        width: 100%;
+    }
 }
 
 
