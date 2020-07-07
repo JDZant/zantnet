@@ -189,6 +189,23 @@ profile.content-wrapper h1 {
     }
 }
 
+@media screen and (max-width:550px) {
+    .two-column-wrapper {
+        display: inline;
+    }
+
+    .profile-content-wrapper {
+        margin: auto;
+        padding: 30px;
+    }
+
+    .profile-image-wrapper {
+        width: 80%;
+        margin: auto;
+        padding-top: none;
+    }
+}
+
 /* Contact page styling */
 label {
     display: block;
@@ -248,11 +265,3 @@ textarea {
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
